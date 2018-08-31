@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Chris Chewning TEST</title>
+    <title>Chris Chewning</title>
 
     <!-- Bootstrap core CSS -->
     <!-- change back to .min.css afterwards? -->
@@ -21,8 +21,7 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Custom styles for this template -->
-    <!--  change back to .min.css afterwards? -->
+
     <link href="css/agency.css" rel="stylesheet">
 
   </head>
@@ -33,7 +32,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#about">Current Project</a>
+        <a class="navbar-brand js-scroll-trigger" href="https://github.com/ChrisChewning/capstoneProject">Current Project</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
 
@@ -44,14 +43,17 @@
           <ul class="navbar-nav text-uppercase ml-auto">
 
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
+            </li>
+
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
+
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
+
           </ul>
         </div>
       </div>
@@ -67,7 +69,11 @@
           <div class="intro-lead-in">Web Developer, Former Educator</div>
           <div class="intro-heading text-uppercase"> Chris Chewning</div>
 
-          <a class="btn-xl fa fa-chevron-circle-down" href="#about"></a>
+          <a href="#about" class="btn-circle page-scroll">
+          <i class="fa fa-angle-double-down animated"></i>
+                  </a>
+
+          <!-- <i class="fal fa-angle-double-down"></i> -->
 
 
         <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">KEEP SCROLLING</a> -->
@@ -92,7 +98,7 @@
             <ul class="timeline">
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/cocky.jpg" alt="Univ. of South Carolina mascot, Cocky">
+                  <img class="rounded-circle img-fluid" src="img/about/scarolina.png" alt="Univ. of South Carolina mascot, Cocky">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -146,10 +152,10 @@
                 </div>
               </li>
               <li class="timeline-inverted">
-                <div class="timeline-image">
+                <div class="timeline-image humanWebDev">
                   <!-- <img class="rounded-circle img-fluid" src="img/about/final.jpg" alt=""> -->
-                  <h4>Ready<br>
-                    & Able
+                  <h4>Human<br>
+                    Web
                     <br>Developer</h4>
                     <!-- <br></h4> -->
                 </div>
@@ -170,6 +176,8 @@
             <h3 class="section-subheading text-muted">Main General Assembly Projects & Side Projects</h3>
           </div>
         </div>
+
+
         <div class="row">
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
@@ -178,11 +186,11 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/projects/Mopac-Dodger.png" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Threads</h4>
-              <p class="text-muted">Illustration</p>
+              <h4>Project 1</h4>
+              <p class="text-muted">Javascript / jQuery Multiplayer Game. Try it out!</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -261,26 +269,15 @@
 
 
     <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">CONTACT</h2>
-            <!-- <h3 class="section-subheading text-muted">Let's Chat!</h3> -->
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <!-- <form id="contactForm" name="sentMessage" novalidate="novalidate"> -->
-
-
-
-              <!-- <div> -->
-                <div class="col-md-12">
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center contactWrap">
+                    <h1 class="section-heading">Let's Chat!</h1>
   <img class="contact-img" src="img/profile1.jpg" alt="">
-</div>
-                  <!-- </div> -->
-
+                </div>
+            </div>
                   <div class="col-lg-12">
                     <ul class="list-inline social-buttons">
                       <li class="list-inline-item">
@@ -312,17 +309,10 @@
     <footer>
       <div class="container">
         <div class="row">
-          <!-- <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2018</span>
-          </div> -->
-
           <div class="col-md-12">
-            <!-- <ul class="list-inline quicklinks">
               <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li> -->
-              <li class="list-inline-item">
-                <a href="#">Thanks for reading!<br> Here's a 1-min. game I made.</a>
+                <h5 id='thanks'>Thanks for reading!<br></h5>
+                <h5><a href="http://zealous-bomb.surge.sh/" target="_blank">Here's a 1-min. game I made.</a></h5>
               </li>
             </ul>
           </div>
