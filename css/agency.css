@@ -294,8 +294,7 @@ fieldset[disabled] .btn-xl.active {
 
 
 header {
-  background-image: url('../img/atx.jpg');
-
+  background-image: url('../img/atxReal.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -316,6 +315,7 @@ header .intro-text .intro-lead-in {
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
+  color: black;
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -324,8 +324,8 @@ header .intro-text .intro-heading {
   font-size: 50px;
   line-height: 50px;
   margin-bottom: 25px;
+  color: black;
 }
-
 
 
 @media (min-width: 768px) {
@@ -378,7 +378,7 @@ section h3.section-subheading {
 
 .page-scroll {
 font-size: 5em;
-color: white;
+color: black;
 }
 
 
@@ -433,7 +433,7 @@ color: white;
   text-transform: none;
   margin: 0;
 }
-#portfolio .portfolio-item .portfolio-caption p {
+#portfolio .portfolio-item .portfolio-caption a {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
@@ -511,7 +511,7 @@ color: white;
   background-color: #white;
   color: black;
   border-radius: 100%;
-  border: 7px solid #f1f1f1;
+  /* border: 7px solid #f1f1f1; */
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
@@ -643,7 +643,7 @@ aside.clients img {
 
 section#contact {
   background-color: #212529;
-  background: url("../img/meeting.jpg");
+  background: url("../img/chair.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -655,7 +655,8 @@ section#contact {
 }
 
 section#contact .section-heading {
-  color: white;
+  color: black;
+  font-size: 3.5em;
 }
 section#contact .form-group {
   margin-bottom: 25px;
@@ -854,6 +855,19 @@ ul.social-buttons li a:active {
   opacity: 0;
   display: none;
 }
+
+.img-fluid {
+  border: 1px solid black;
+  width: 250px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.projectLinks {
+  margin-bottom: 30px;
+}
+
+
 ::-moz-selection {
   text-shadow: none;
   background: #fed136;
