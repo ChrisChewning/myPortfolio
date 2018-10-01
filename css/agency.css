@@ -677,12 +677,6 @@ section#contact {
   max-height: 100%;
   position: relative;
 }
-
-/* section#contact .contact-img{
-  width: 200px;
-  height: 200px;
-} */
-
 }
 
 
@@ -812,18 +806,14 @@ ul.social-buttons li a:active {
 }
 }
 
-/* @media (min-width: 200px) {
-  .contact-img{
-    height: 40vh;
-    width: 25vw;
-    margin-top: 2%;
-  } */
-  /* } */
-
-
-/* .contact-img{
+@media (min-width: 768px) {
+.contact-img{
+  max-width: 200px;
+  max-height: 300px;
   margin-top: 2%;
-} */
+}
+}
+
 
 
 
