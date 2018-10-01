@@ -351,6 +351,7 @@ header .intro-text .intro-heading {
 }
 section {
   padding: 100px 0;
+  text-align: center;
 }
 section h2.section-heading {
   font-size: 40px;
@@ -385,7 +386,10 @@ color: black;
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
+  text-align: center;
 }
+
+
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
@@ -441,12 +445,17 @@ color: black;
 }
 #portfolio * {
   z-index: 2;
+  text-align: center;
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
 }
+
+
+
+
 
 
 .humanWebDev {
@@ -505,7 +514,7 @@ color: black;
   left: 0;
   margin-left: 0;
   width: 80px;
-  height: 80px;
+  height: 125px;
   position: absolute;
   z-index: 100;
   background-color: #white;
@@ -518,6 +527,7 @@ color: black;
   font-size: 10px;
   margin-top: 12px;
   line-height: 14px;
+  margin-top: 50%;
 }
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
@@ -565,7 +575,7 @@ color: black;
     text-align: right;
   }
   .timeline > li .timeline-image {
-    width: 100px;
+    width: 80px;
     height: 100px;
     left: 50%;
     margin-left: -50px;
@@ -589,8 +599,8 @@ color: black;
     padding: 0 20px 20px;
   }
   .timeline > li .timeline-image {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     margin-left: -75px;
   }
   .timeline > li .timeline-image h4 {
@@ -621,6 +631,15 @@ color: black;
     padding: 0 100px 20px 20px;
   }
 }
+
+
+@media (min-width: 480px) {
+  .timeline > .timeline-image {
+  max-height: 10px;
+  }
+
+
+
 .team-member {
   text-align: center;
   margin-bottom: 50px;
@@ -640,6 +659,11 @@ color: black;
 aside.clients img {
   margin: 50px auto;
 }
+
+
+
+
+
 
 section#contact {
   background-color: #212529;
@@ -724,7 +748,6 @@ footer ul.quicklinks {
 ul.social-buttons {
   margin-bottom: 0;
   margin-top: 20px;
-
 }
 
 ul.social-buttons li a {
@@ -779,6 +802,7 @@ ul.social-buttons li a:active {
 .contact-img{
   margin-top: 2%;
 }
+
 
 
 .portfolio-modal .modal-dialog {
@@ -858,8 +882,8 @@ ul.social-buttons li a:active {
 
 .img-fluid {
   border: 1px solid black;
-  width: 250px;
-  height: 200px;
+  width: 125px;
+  height: 125px;
   margin-bottom: 15px;
 }
 
@@ -912,4 +936,9 @@ footer ul.quicklinks {
 #thanks {
   color: white;
   margin-bottom: 3%;
+}
+
+
+section#contact {
+  text-align: center;
 }
